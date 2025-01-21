@@ -1,5 +1,4 @@
-In this project, let's build a **Money Manager** app by applying the concepts we have learned till now.
-
+[Visit Expense Tracker Site](https://moneytrack007.ccbp.tech/)
 ### Refer to the image below:
 
 <br/>
