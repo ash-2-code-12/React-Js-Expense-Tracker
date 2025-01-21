@@ -1,0 +1,177 @@
+.main-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.application {
+  width: 100%;
+}
+.greetings-section {
+  width: 100%;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 24px 0;
+}
+.greeting-heading {
+  color: #475569;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 22px;
+  width: 100%;
+}
+.greeting-desc {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.greeting-desc-highlight {
+  color: #0b69ff;
+}
+.money-stats-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0 0 24px 0;
+  width: 100%;
+}
+.transactions-section {
+  margin: 0 0 24px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.transactions-section-card {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+}
+.transactions-card-heading {
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.input-box {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.input-box label {
+  display: block;
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.input-box input,
+select {
+  display: block;
+  width: 100%;
+  padding: 8px 6px 8px 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  outline: none;
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.input-box option {
+  font-weight: 400;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 8px 12px 8px 12px;
+  width: 70px;
+}
+
+.history-table-heading {
+  border: 1.5px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px;
+  height: 36px;
+  color: #475569;
+  padding-right: 20px;
+  margin: 0;
+}
+.table-title-heading {
+  width: 33.33%;
+  margin: 0;
+}
+.table-amount-heading {
+  width: 33.33%;
+  margin: 0;
+}
+.table-type-heading {
+  width: 33.33%;
+  margin: 0;
+}
+.history-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .application {
+    max-width: 1000px;
+  }
+  .greetings-section {
+    text-align: left;
+    padding: 36px;
+    height: 180px;
+    background-position: right;
+  }
+  .greeting-heading {
+    font-size: 32px;
+  }
+  .greeting-desc {
+    font-size: 20px;
+  }
+  .transactions-section {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #add-transaction-card {
+    width: 35%;
+    min-width: 300px;
+  }
+  .transactions-card-heading {
+    font-size: 20px;
+  }
+  .history-table-heading {
+    font-size: 14px;
+    padding-right: 22px;
+  }
+}

@@ -1,0 +1,46 @@
+.transaction-item {
+  border: 1.5px solid #cbd5e1;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px;
+  height: 36px;
+  color: #7e858e;
+  margin: 0;
+}
+.transaction-item p {
+  padding-left: 4px;
+}
+.title-entry {
+  width: 33.33%;
+  margin: 0;
+}
+.amount-entry {
+  width: 33.33%;
+  margin: 0;
+}
+.transaction-type-entry {
+  width: 33.33%;
+  margin: 0;
+}
+.delete-btn {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.delete-icon {
+  width: 20px;
+}
+
+@media (min-width: 768px) {
+  .transaction-item {
+    font-size: 14px;
+  }
+  .delete-icon {
+    width: 22px;
+  }
+}

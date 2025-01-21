@@ -1,0 +1,66 @@
+.money-stats-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+.money-stat-card {
+  border-radius: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  gap: 20px;
+  padding: 16px;
+}
+.balance {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.stat-icon {
+  width: 60px;
+}
+.stat-box {
+  width: 100%;
+  color: #475569;
+}
+.stat-name {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+.amount {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .money-stats-list {
+    flex-direction: row;
+    align-items: center;
+  }
+  .money-stat-card {
+    flex-grow: 1;
+    height: 140px;
+  }
+  .stat-icon {
+    width: 70px;
+  }
+  .stat-name {
+    font-size: 14px;
+  }
+  .amount {
+    font-size: 20px;
+  }
+}
